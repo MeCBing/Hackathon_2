@@ -10,14 +10,19 @@ namespace Number
     {
         static void Main(string[] args)
         {
-            for(int i=1;i<101;i++)
+            PrintfNumber();
+            Console.ReadLine();
+        }
+
+        private static void PrintfNumber()
+        {
+            for (int i = 1; i < 101; i++)
             {
-                if(i%3!=0 || i%5!=0)
+                if (i % 3 != 0 || i % 5 != 0)
                 {
-                    Console.WriteLine($"{i.ToString()}  {i}/3 = {i/3}...{i%3}  |  {i}/5 = {i / 5}...{i % 5}");
+                    Console.WriteLine($"{i.ToString()}  {i}/3 = {i / 3}...{i % 3}  |  {i}/5 = {i / 5}...{i % 5}");
                 }
             }
-            Console.ReadLine();
         }
     }
 }

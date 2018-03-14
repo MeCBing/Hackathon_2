@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reading", "Reading\Reading.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LED", "LED\LED.csproj", "{A9AFB8B4-1F35-40E8-800D-328A2E165713}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100Chicken", "100Chicken\100Chicken.csproj", "{C066EAE2-EB1A-4009-9698-C8B581810E30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prime", "Prime\Prime.csproj", "{992925DC-B260-4082-9F03-C150D819FC2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{A9AFB8B4-1F35-40E8-800D-328A2E165713}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9AFB8B4-1F35-40E8-800D-328A2E165713}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9AFB8B4-1F35-40E8-800D-328A2E165713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C066EAE2-EB1A-4009-9698-C8B581810E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C066EAE2-EB1A-4009-9698-C8B581810E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C066EAE2-EB1A-4009-9698-C8B581810E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C066EAE2-EB1A-4009-9698-C8B581810E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{992925DC-B260-4082-9F03-C150D819FC2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992925DC-B260-4082-9F03-C150D819FC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992925DC-B260-4082-9F03-C150D819FC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992925DC-B260-4082-9F03-C150D819FC2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
